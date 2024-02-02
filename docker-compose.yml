@@ -2,7 +2,7 @@ version: '3.8'
 services:
   db:
     image: postgres:13
-    container_name: ppostgres
+    container_name: db
     restart: always
     volumes:
       - data:/var/lib/postgresql/data
@@ -21,7 +21,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: pbackend
+    container_name: backend
     restart: always
     volumes:
       - .:/app
