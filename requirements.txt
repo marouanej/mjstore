@@ -1,5 +1,5 @@
 ﻿asgiref==3.7.2
-Django==5.0.1
+Django==4.2.9
 phonenumbers==8.13.29
 pillow==10.2.0
 psycopg2-binary==2.9.9
